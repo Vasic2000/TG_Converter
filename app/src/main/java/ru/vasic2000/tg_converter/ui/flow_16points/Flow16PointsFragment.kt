@@ -4,17 +4,12 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.ViewModelProvider
-import ru.vasic2000.tg_converter.databinding.FragmentNotificationsBinding
+import ru.vasic2000.tg_converter.databinding.FragmentFlow16PointsBinding
 
 class Flow16PointsFragment : Fragment() {
 
-    private var _binding: FragmentNotificationsBinding? = null
-
-    // This property is only valid between onCreateView and
-    // onDestroyView.
+    private var _binding: FragmentFlow16PointsBinding? = null
     private val binding get() = _binding!!
 
     override fun onCreateView(
@@ -22,17 +17,8 @@ class Flow16PointsFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val notificationsViewModel =
-            ViewModelProvider(this).get(NotificationsViewModel::class.java)
-
-        _binding = FragmentNotificationsBinding.inflate(inflater, container, false)
-        val root: View = binding.root
-
-        val textView: TextView = binding.textNotifications
-        notificationsViewModel.text.observe(viewLifecycleOwner) {
-            textView.text = it
-        }
-        return root
+        _binding = FragmentFlow16PointsBinding.inflate(inflater, container, false)
+        return binding.root
     }
 
     override fun onDestroyView() {
