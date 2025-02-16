@@ -3,23 +3,23 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@+id/navigation_air_heat">
 
     <fragment
-        android:id="@+id/navigation_home"
+        android:id="@+id/navigation_air_heat"
         android:name="ru.vasic2000.tg_converter.ui.air_heat.AirHeatFragment"
-        android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        android:label="@string/title_airHeat"
+        tools:layout="@layout/fragment_air_heat" />
 
     <fragment
         android:id="@+id/navigation_dashboard"
         android:name="ru.vasic2000.tg_converter.ui.water_heat.WaterHeatFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:label="@string/title_waterHeat"
+        tools:layout="@layout/fragment_water_heat" />
 
     <fragment
         android:id="@+id/navigation_notifications"
         android:name="ru.vasic2000.tg_converter.ui.flow_16points.Flow16PointsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:label="@string/title_flow16points"
+        tools:layout="@layout/fragment_flow_16_points" />
 </navigation>

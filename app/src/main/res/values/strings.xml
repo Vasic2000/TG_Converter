@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">TG_Converter</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_airHeat">Air Heat</string>
+    <string name="title_waterHeat">Water Heat</string>
+    <string name="title_flow16points">Flow 16 points</string>
+    <string name="air_heat">Air Heat</string>
+    <string name="water_heat">Water Heat</string>
+    <string name="_16_points_flow">16 points Flow</string>
 </resources>

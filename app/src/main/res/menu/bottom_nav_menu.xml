@@ -2,18 +2,18 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/navigation_home"
-        android:icon="@drawable/ic_home_black_24dp"
-        android:title="@string/title_home" />
+        android:id="@+id/navigation_air_heat"
+        android:icon="?attr/homeAsUpIndicator"
+        android:title="@string/air_heat" />
 
     <item
         android:id="@+id/navigation_dashboard"
-        android:icon="@drawable/ic_dashboard_black_24dp"
-        android:title="@string/title_dashboard" />
+        android:icon="?android:attr/actionModeWebSearchDrawable"
+        android:title="@string/water_heat" />
 
     <item
         android:id="@+id/navigation_notifications"
-        android:icon="@drawable/ic_notifications_black_24dp"
-        android:title="@string/title_notifications" />
+        android:icon="?android:attr/actionModeFindDrawable"
+        android:title="@string/_16_points_flow" />
 
 </menu>
